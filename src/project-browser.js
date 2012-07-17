@@ -1,32 +1,68 @@
+<link type="text/css" href="/Docs/javascript/jquery-ui/css/start/jquery-ui-1.8.21.custom.css" rel="stylesheet"/>
+<link type="text/css" href="/Docs/javascript/jquery.treeview.css" rel="stylesheet"/>
+<link type="text/css" href="/Docs/javascript/project-browser.css" rel="stylesheet"/>
 
-<script type="text/javascript" src="/Docs/javascript/js/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="/Docs/javascript/js/jquery-ui-1.8.21.custom.min.js"></script>
-
+<script type="text/javascript" src="/Docs/javascript/jquery.js"></script>
+<script type="text/javascript" src="/Docs/javascript/jquery.treeview.js"></script>
 <script language="javascript">
 
-// JScript source code
-// A hook into AJAX's Sys.Application.load event, raised after all scripts 
-// have been loaded and the objects in the application have been created 
-// and initialized.
-Sys.Application.add_load(onApplicationLoad)
-   
-// Function Name:   onApplicationLoad()
-// Parameters:      None
-// Description:     This function handles the AJAX's Sys.Application.load event 
-//                  When this event fires the function captures references to 
-//                  the Visio Web Access web part object and registers 
-//                  the following Visio Web Access specific event handlers: 
-//
-//                  1. diagramcomplete: raised when the request for a web
-//                                      drawing page finishes.
-function onApplicationLoad() {
-    try
-    {
-            alert("Page has been loaded");
+$(document).ready(function(){
+    try{
+        $(function () {
+
+            // first example
+        	$("#browser").treeview();
+
+            /*$("#demo1").jstree({
+                "json_data" : {
+                    "data" : [
+                        {
+                            "data" : "A node",
+                            "metadata" : { id : 23 },
+                            "children" : [ "Child 1", "A Child 2" ]
+                        },
+                        {
+                            "attr" : { "id" : "li.node.id1" },
+                            "data" : {
+                                "title" : "Long format demo",
+                                "attr" : { "href" : "#" }
+                            }
+                        }
+                    ]
+                },
+                "plugins" : [ "themes", "json_data", "ui" ]
+            }).bind("select_node.jstree", function (e, data) { alert(data.rslt.obj.data("id")); });*/
+        });
+
+    }catch(err){
+        alert(err);
     }
-    catch(err){
-    }
-}
+});
 </script>
 
-<h1>This is a test</h1>
+<div>
+    <ul id="browser" class="filetree">
+		<li><span class="folder">Folder 1</span>
+			<ul>
+				<li><span class="file">Item 1.1</span></li>
+			</ul>
+		</li>
+		<li><span class="folder">Folder 2</span>
+			<ul>
+				<li><span class="folder">Subfolder 2.1</span>
+					<ul id="folder21">
+						<li><span class="file">File 2.1.1</span></li>
+						<li><span class="file">File 2.1.2</span></li>
+					</ul>
+				</li>
+				<li><span class="file">File 2.2</span></li>
+			</ul>
+		</li>
+		<li class="closed"><span class="folder">Folder 3 (closed at start)</span>
+			<ul>
+				<li><span class="file">File 3.1</span></li>
+			</ul>
+		</li>
+		<li><span class="file">File 4</span></li>
+    </ul>
+</div>
