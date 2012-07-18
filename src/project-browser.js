@@ -21,6 +21,7 @@ $(document).ready(function(){
 });
 
 var ppServer = null;
+var remoteServerUrl = 'http://hightide:9944';
 var clientType = "Allergan.Sharepoint.PipelinePilot.Connection";
 var clientMachine = document.location.hostname;
 var sessionId = null;
@@ -39,7 +40,9 @@ function login() {
         	debug: false
     });
 
-    var remoteServerUrl = 'http://localhost:9944';
+    /*var WshNetwork = new ActiveXObject("WScript.Network");
+    var netWorkUserName = WshNetwork.UserName;
+    var netWorkDomain = WshNetwork.UserDomain;*/
 
     if (ppServer == null) {
 
@@ -81,7 +84,7 @@ function loginSuccess() {
 }
 
 function updateLoginInfo(session){
-    $('#ppLogin').html("Logged in with "+
+    $('#ppLogin').html("Logged into Pipeline Pilot server on "+remoteServerUrl+" with "+
         "<br>Username: "+session.getUser()+
         "<br>User folder: "+session.getUserFolder()+
         "<br>Auth Method: "+session.getAuthMethod()+
