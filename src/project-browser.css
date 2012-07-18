@@ -1,3 +1,15 @@
 .filetree span.file {
     cursor: pointer !important;
+    /*width: 400px !important;*/
+}
+
+#ppLogin {
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+#protocolTree {
+    width: 400px;
 }
