@@ -27,6 +27,8 @@ var clientMachine = document.location.hostname;
 var sessionId = null;
 var spName = null;
 var spUserName = null;
+var spGroups = null;
+var spGroupCount = 0;
 
 function login() {
 
@@ -40,9 +42,15 @@ function login() {
         	debug: false
     });
 
-    /*var WshNetwork = new ActiveXObject("WScript.Network");
-    var netWorkUserName = WshNetwork.UserName;
-    var netWorkDomain = WshNetwork.UserDomain;*/
+    $().SPServices({
+            operation: "GetGroupCollectionFromUser",
+            userLoginName: $().SPServices.SPGetCurrentUser(),
+            async: false,
+            completefunc: function (xData, Status) {
+                var groups = $(xData.responseXML).find("Group");
+                spGroupCount = groups.length;
+            }
+    });
 
     if (ppServer == null) {
 
@@ -88,7 +96,8 @@ function updateLoginInfo(session){
         "<br>Username: "+session.getUser()+
         "<br>User folder: "+session.getUserFolder()+
         "<br>Auth Method: "+session.getAuthMethod()+
-        "<br>SharePoint user name: "+spName);
+        "<br>SharePoint user name: "+spName +
+        "<br>SharePoint group count: "+spGroupCount);
 }
 function loginFailed(msg) {
     $('#ppLogin').html('Login failed: '+msg);
