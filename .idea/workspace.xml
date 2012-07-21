@@ -1,9 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ae653da-98bd-4ad5-80d6-6c5aaea5cc7e" name="Default" comment="">
+    <list default="true" readonly="true" id="9ae653da-98bd-4ad5-80d6-6c5aaea5cc7e" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2\resources\cmc.war\css\plp-bpm-header.css" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/css/chemseek-console-header.css" />
+      <change type="MOVED" beforePath="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2\resources\cmc.war\css\plp-bpm.css" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/css/chemseek-console.css" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.number" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.number" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/bin/startup.bat" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/bin/startup.bat" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Index-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Index-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Login-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Login-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Logout-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Logout-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Protocol-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Protocol-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Scheduler-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Scheduler-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Settings-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Settings-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AdminHome-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AdminHome-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AutoSuggest-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AutoSuggest-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Chemistry-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Chemistry-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Home-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Home-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Query-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Query-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/QueryHistory-servlet.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/QueryHistory-servlet.xml" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/common-css.vm" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/common-css.vm" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/common-js.vm" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/common-js.vm" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/home.vm" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/home.vm" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/js/main.js" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/js/main.js" />
+      <change type="MODIFICATION" beforePath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/conf/server.xml" afterPath="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/conf/server.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/project-browser.js" afterPath="$PROJECT_DIR$/src/project-browser.js" />
     </list>
     <ignored path="sd-p04.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,28 +86,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project-browser-orig.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project-browser-orig.js">
+      <file leaf-file-name="Chemistry-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Chemistry-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+            <state line="19" column="52" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-browser.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/project-browser.js">
+      <file leaf-file-name="Compute-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Compute-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="172" selection-start="1889" selection-end="1889" vertical-scroll-proportion="1.5993031">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-browser.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project-browser.css">
+      <file leaf-file-name="Indexing-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Indexing-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryHistory-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/QueryHistory-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="52" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tag-servlet.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Tag-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="15" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.5882353">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Query-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="73" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Home-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="72" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/File-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facet-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Facet-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Error-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Error-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,8 +189,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/project-browser.css" />
-        <option value="$PROJECT_DIR$/src/project-browser.js" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/home.js" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/views/home.vm" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Index-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Settings-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Scheduler-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Protocol-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Logout-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Login-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AdminHome-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AutoSuggest-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Chemistry-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Query-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Home-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/QueryHistory-servlet.xml" />
+        <option value="C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Tag-servlet.xml" />
       </list>
     </option>
   </component>
@@ -119,7 +221,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -163,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sd-p04" />
+              <option name="myItemId" value="ChemSEEK2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -173,11 +275,249 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sd-p04" />
+              <option name="myItemId" value="ChemSEEK2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="origami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="origami" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmc.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmc.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmc.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmc.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datasources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmc.war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sd-p04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChemSEEK2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -186,16 +526,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="277" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="296" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="297" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="972" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="292" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -209,12 +551,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2\resources\cmc.war\WEB-INF\views" />
       <recent name="C:\Users\Jeffrey\Documents\sd-p04\src" />
     </key>
   </component>
@@ -239,6 +583,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -267,24 +629,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -343,7 +687,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -360,6 +704,25 @@
     <option name="FORCE_UPDATE" value="false" />
     <configuration useDefault="false">C:\Users\Jeffrey\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2" />
+          <option name="myCopyRoot" value="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2" />
+          <option name="myCopyRoot" value="C:\Pfizer SEEK Phase 2\trunk\ChemSEEK2" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -383,31 +746,35 @@
       <created>1342511733554</created>
       <updated>1342511733554</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1342541899380</created>
+      <updated>1342541899380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.49812934" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2578125" sideWeight="0.49839744" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.49812934" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18011758" sideWeight="0.32662192" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2578125" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18011758" sideWeight="0.33221477" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15927312" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18011758" sideWeight="0.65995526" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -446,7 +813,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
@@ -472,25 +839,206 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/project-browser.css">
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Login-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project-browser-orig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0">
+        <state line="25" column="52" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project-browser.js">
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Index-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="172" selection-start="1889" selection-end="1889" vertical-scroll-proportion="1.5993031">
+        <state line="17" column="25" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/cmc-controllers/Identity-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="49" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="tag#target#5;tag#project#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AdminHome-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/AutoSuggest-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Chemistry-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Query-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="73" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Home-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="72" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/File-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Facet-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Error-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Compute-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Indexing-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/QueryHistory-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="52" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Pfizer SEEK Phase 2/trunk/ChemSEEK2/resources/cmc.war/WEB-INF/spring/search-controllers/Tag-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.5882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Invalid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ChemSEEK2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
