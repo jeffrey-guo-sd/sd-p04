@@ -1,11 +1,11 @@
-<link type="text/css" href="/Docs/javascript/jquery-ui/css/start/jquery-ui-1.8.21.custom.css" rel="stylesheet"/>
-<link type="text/css" href="/Docs/javascript/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
-<link type="text/css" href="/Docs/javascript/project-browser.css" rel="stylesheet"/>
+<link type="text/css" href="/rd/dpt/chem/cms/Shared Documents/dev/jquery-ui/css/start/jquery-ui-1.8.21.custom.css" rel="stylesheet"/>
+<link type="text/css" href="/rd/dpt/chem/cms/Shared Documents/dev/jquery-treeview/jquery.treeview.css" rel="stylesheet"/>
+<link type="text/css" href="/rd/dpt/chem/cms/Shared Documents/dev/project-browser.css" rel="stylesheet"/>
 
-<script type="text/javascript" src="/Docs/javascript/jquery/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="/Docs/javascript/jquery.SPServices/jquery.SPServices-0.7.1a.min.js"></script>
-<script type="text/javascript" src="/Docs/javascript/jquery-treeview/jquery.treeview.js"></script>
-<script type="text/javascript" src="/Docs/javascript/ppweb.js"></script>
+<script type="text/javascript" src="/rd/dpt/chem/cms/Shared Documents/dev/jquery/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/rd/dpt/chem/cms/Shared Documents/dev/jquery.SPServices/jquery.SPServices-0.7.1a.min.js"></script>
+<script type="text/javascript" src="/rd/dpt/chem/cms/Shared Documents/dev/jquery-treeview/jquery.treeview.js"></script>
+<script type="text/javascript" src="/rd/dpt/chem/cms/Shared Documents/dev/ppweb.js"></script>
 <script language="javascript">
 
 $(document).ready(function(){
@@ -21,7 +21,7 @@ $(document).ready(function(){
 });
 
 var ppServer = null;
-var remoteServerUrl = 'http://hightide:9944';
+var remoteServerUrl = 'http://ir11242a.allergan.com:8532';
 var clientType = "Allergan.Sharepoint.PipelinePilot.Connection";
 var clientMachine = document.location.hostname;
 var sessionId = null;
@@ -32,6 +32,7 @@ var spGroupCount = 0;
 
 function login() {
 
+/*
     spName = $().SPServices.SPGetCurrentUser({
     	fieldName: "Name",
     	debug: false
@@ -50,11 +51,12 @@ function login() {
                 var groups = $(xData.responseXML).find("Group");
                 spGroupCount = groups.length;
             }
-    });
+    });*/
 
     if (ppServer == null) {
 
-        ppServer = new PipelinePilotServer(serverAvailable, sessionId, clientType, clientMachine, remoteServerUrl);
+	alert("PP server is null, let's try to do WIA login.");
+        ppServer = new PipelinePilotServer(serverAvailable, undefined, clientType, clientMachine, remoteServerUrl);
 
     } else {
 
@@ -66,20 +68,22 @@ function login() {
 
 function serverAvailable(serverInitializedOk, serverInitializationMessage, sessionOk) {
 
+alert("is session OK? "+sessionOk);
+alert("is Logged in? "+ppServer.isLoggedIn());
+
     if (!serverInitializedOk) {
         $('#ppLogin').html('Unable to contact Pipeline Pilot server.');
         return;
     }
 
-    //get username from SharePoint context
-    var username = "mySrvcAccount";
-    var password = "";
+var sessionId = ppServer.getSession().getSessionId();
+alert("my session ID: "+sessionId);
+if(sessionId != ''){
 
-    //from user name, we need to retrieve group information from AD
-    //use corresponding group service account to login to PLP
-    var password = "";
+  alert("session username: "+ppServer.getSession().getUser());
+  loginSuccess();
+}
 
-    ppServer.login(username, password, clientType, clientMachine, loginSuccess, loginFailed);
 }
 
 function loginSuccess() {
@@ -100,7 +104,7 @@ function updateLoginInfo(session){
         "<br>SharePoint group count: "+spGroupCount);
 }
 function loginFailed(msg) {
-    $('#ppLogin').html('Login failed: '+msg);
+    $('#ppLogin').html('Login failed: '+msg + ' with remote server: '+remoteServerUrl);
 }
 
 function buildTree(server) {
